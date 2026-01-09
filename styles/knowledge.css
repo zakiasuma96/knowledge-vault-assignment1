@@ -230,4 +230,62 @@ nav .manu a{
     color: #627382;
 }
 
+#brain{
+    width: 90%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+#brain .brain-content{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+#brain .brain-content .brain-img{
+    max-width: 600px;
+}
+
+#brain .brain-content .brain-text{
+
+    max-width: 700px;
+    
+}
+
+.brain-content .brain-text h4{
+    color: #30B868;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.brain-content .brain-text  h1{
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 48px;
+    color: #001931;
+}
+.brain-content .brain-text p{
+    color: #627382;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 500px;
+
+}
+.brain-text-info{
+    margin-bottom: 40px;
+}
+
+.brain-content .brain-text-decoration{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.brain-content .brain-text-decoration img{
+    max-width: 100%;
+}
+
 
