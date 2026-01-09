@@ -64,7 +64,7 @@ nav .manu a{
     background-position: center;
     background-repeat: no-repeat;
     max-width: 1600px;
-    min-height: 86vh;   
+    min-height: 90vh;   
 } 
 
 #banner .banner-content{
@@ -163,4 +163,71 @@ nav .manu a{
     background-color: #30B868;
     color: white;
 }
+
+#banner .banner-title{
+    margin-top: 400px;
+}
+
+#structure{
+    width: 90%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+#structure .structure-content .structure-title {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#structure .structure-content .structure-title h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+    
+}
+
+#structure .structure-content .structure-title p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.sturcture-box{
+    display: flex;
+    gap:24px;
+
+}
+
+.sturcture-box .sturcture-card{
+    max-width: 322px;
+    padding: 70px 24px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px #0000001e;
+    text-align: center;
+    margin-bottom: 120px;
+    border-radius: 6px;
+}
+
+.sturcture-box .sturcture-card img{
+    background-color: #F95555;
+    border: 1px solid #F95555;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sturcture-box .sturcture-card h3{
+    margin: 16px 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.sturcture-box .sturcture-card p{
+    /* margin: 16px 0; */
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+}
+
 
