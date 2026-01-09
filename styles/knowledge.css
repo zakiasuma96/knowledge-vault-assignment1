@@ -3,3 +3,164 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* shared styles  */
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+    padding: 16px 13px;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 24px 0;
+    cursor: pointer;
+    border-radius: 2px;
+    
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #30B868;
+    color: #30B868;
+}
+
+
+/* main styles  */
+
+.primary{
+    width: 90%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    max-width: 139px;
+}
+
+nav .manu{
+    display: flex;
+    list-style: none;
+    gap:32px;
+    align-items: center;
+}
+
+nav .manu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#banner{
+    background-image: url("../assets/hero-bg.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    min-height: 86vh;   
+} 
+
+#banner .banner-content{
+    padding: 116px 120px 180px ;
+    text-align: center;
+}
+
+#banner .banner-content .banner-style{
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+#banner .banner-content .banner-btn1{
+    padding: 8px 12px 12px 10px;
+    border: none;
+    border-radius: 1000px;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+    
+}
+
+#banner .banner-content .banner-dot{
+    padding: 2px 6px ;
+}
+
+#banner .banner-content .banner-btn1:hover{
+    border: 1px solid #30B868 ;
+    color: black;
+    border-radius: 1000px;
+    background-color: #30B868;
+}
+
+#banner .banner-content .banner-text h1{
+    margin: 16px 0;
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 700;
+
+}
+
+#banner .banner-content .banner-text h1 .banner-text-style{
+    color: #30B868;
+}
+
+#banner .banner-content p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 24px;
+    margin: 16px 38px 32px;
+   
+}
+
+#banner .banner-content .banner-btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#banner .banner-content .banner-btn-box .banner-button1 .banner-btn2{
+    background-color: #30B868;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+   
+    
+}
+
+#banner .banner-content .banner-btn-box .banner-button1 .banner-btn2:hover{
+    border: 1px solid #30B868;
+    background-color: transparent;
+    color: black;
+}
+#banner .banner-content .banner-btn-box .banner-button2 .banner-btn3{
+    background-color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+   
+    
+}
+
+#banner .banner-content .banner-btn-box .banner-button2 .banner-btn3:hover{
+    border: none;
+    background-color: #30B868;
+    color: white;
+}
+
